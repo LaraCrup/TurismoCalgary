@@ -1,0 +1,874 @@
+/*PALETA DE COLORES
+#edf2f4 fondo claro
+#8d99ae gris
+#d90429 rojo oscuro
+#ef233c rojo claro
+#2b2d42 azul oscuro
+*/
+
+/* EStablecer Width */
+.anchoFijo{
+    width: 100%;
+}
+
+/*Formatos generales*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #edf2f4;
+    color: #2b2d42;
+    width: 100%;
+}
+
+main{
+    width: 100%;
+}
+
+h2{
+    color: #ef233c;
+    font-size: 3vw;
+    margin-bottom: 15px;
+}
+
+h3{
+    font-size: 2vw;
+}
+
+p{
+    font-size: 1vw;
+}
+
+ul li a{
+    color: #2b2d42;
+    text-decoration: none;
+}
+
+strong{
+    font-weight: normal;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+#titulo a{
+    text-decoration: none;
+    color: #ef233c;
+}
+
+/* Header */
+.header{
+    padding: 2%;
+    background-image: url(../Imagenes/Logo.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    margin: 0;
+}
+
+header{
+    background-color: #8d99ae;
+    width: 100%;
+}
+
+h1{
+    font-size: 40px;
+    color: #ef233c;
+    margin-left: 100px;
+}
+
+.barraContacto ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 1%;
+}
+
+.barraContacto ul{
+    text-align: right;
+}
+
+.barraContacto{
+    background-color: #edf2f4;
+    padding: 5px;
+    padding-right: 70px;
+}
+
+.barraContacto ul li a img{
+    width: 3vw;
+}
+
+#facebook{
+    width: 1.5vw;
+}
+
+/*Menu*/
+
+nav{
+    width: 100%;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    border: black 1px solid;
+    border-radius: .5em;
+    background-color: #d90429;
+    padding: 5px 20px;
+    margin: 0px 5px;
+}
+
+nav ul{
+    text-align: center;
+    padding: 1%;
+}
+
+nav ul li a:hover{
+    color: #edf2f4;
+}
+
+.enPantalla{
+    background-color: #2b2d42;
+}
+
+.enPantalla a{
+    color: #edf2f4;
+}
+
+/*Banner*/
+.banner{
+    display: flex;
+    justify-content: center;
+    background-image: url(../Imagenes/CalgaryBanner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 35vw;
+    width: 100%;
+}
+
+.banner p{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15%;
+    font-weight: bolder;
+}
+
+/*Descripcion Ciudad*/
+.descripcion{
+    padding: 2%;
+    margin: 0 70px 0 70px;
+    text-align: center;
+}
+
+.descripcion p{
+    font-size: 1.5vw;
+}
+
+/*Clima*/
+.clima{
+    margin: 0 70px 0 70px;
+}
+
+.datosClima{
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.datosClima ul{
+    width: 50vw;
+}
+
+.datosClima ul li{
+    list-style-type: none;
+    font-size: 1.8vw;
+    margin-bottom: 5%;
+    color: #8d99ae;
+}
+
+.hoyyproximo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.climaHoy{
+    width: 60vw;
+    display: flex;
+}
+
+.climaProximo {
+    margin: 0 5%;
+}
+
+.climaProximo ul li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+/*Transporte*/
+.transporte{
+    margin: 0 70px 0 70px;
+    margin-top: 3%;
+}
+
+#tituloTransporte{
+    text-align: right;
+}
+
+.infoTransporte{
+    text-align: center;
+}
+
+.infoTransporte p{
+    font-size: 1.5vw;
+}
+
+.divTarifas{
+    display: flex;
+    justify-content: center;
+}
+
+.tarifas{
+    margin-top: 3%;
+    border: #d90429 3px solid;
+    border-radius: 20px;
+    padding: 1%;
+    width: 60vw;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.tarifas ul li{
+    list-style-type: none;
+    margin-bottom: 1%;
+    margin-left: 0.5%;
+}
+
+.tarifas h3{
+    margin-bottom: 1%;
+}
+
+/*Galeria*/
+.galeria{
+    margin: 3% 0% 5% 0%;
+}
+
+#galeriaTitulo{
+    margin-left: 70px;
+}
+
+.imagenes{
+    background-color: #8d99ae;
+    text-align: center;
+}
+
+.imagenes div{
+    display: inline-block;
+    padding: 2% 1%;
+}
+
+.imagenes div img{
+    width: 250px;
+}
+
+/*Footer*/
+footer{
+    background-color: #2b2d42;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+}
+
+#logoFooter{
+    margin-top: 2%;
+    margin-left: 70px;
+}
+
+.infoFooter{
+    display: inline-block;
+    width: 20%;
+    vertical-align: text-top;
+}
+
+.infoFooter p{
+    color: white;
+    font-weight: bold;
+}
+
+.infoFooter ul{
+    margin-top: 3%;
+}
+
+.infoFooter ul li{
+    color: white;
+    list-style-type: none;
+    margin-bottom: 1%;
+}
+
+.infoFooter ul li a{
+    color: white;
+    margin-bottom: 1%;
+}
+
+#contactoFooter li{
+    margin-left: 1%;
+    display: inline;
+}
+
+/*Atracciones*/
+#tituloAtracciones{
+    text-align: center;
+    margin-top: 2%;
+}
+
+#totalAtracciones{
+    margin: 0 70px;
+    width: 100%;
+}
+
+.queHacer{
+    margin: auto 70px;
+}
+
+.atracciones div{
+    display: inline-block;
+    margin: 1% 2% 2.5% auto;
+    text-align: center;
+}
+
+.atracciones div img {
+    width: 25vw;
+}
+
+.atracciones div p{
+    font-weight: bold;
+    font-size: 17px;
+    padding-top: 1%;
+    width: 25vw;
+}
+
+.atracciones div:hover{
+    color: #d90429;
+}
+
+/* Puntos de atnecion al cliente */
+.atencionCliente{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.tituloPAC{
+    font-weight: bold;
+}
+
+.datosPAC{
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 1%;
+    vertical-align: top;
+}
+
+.datosPAC ul{
+    margin: 4% 2%;
+    font-size: 20px;
+}
+
+.datosPAC ul li{
+    list-style-type: none;
+}
+
+.mapaydatos{
+    display: flex;
+    align-items: center;
+}
+
+.mapa{
+    margin-left: 70px;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+#contactate{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.contactateDatos{
+    margin-bottom: 2%;
+    vertical-align: text-top;
+}
+
+.contactateDatos ul li{
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.contactateDatos h3{
+    font-size: 23px;
+}
+
+.consultasyatencion{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Formulario */
+form{
+    border: 2px #2b2d42 solid;
+    border-radius: .5em;
+    width: 650px;
+    margin: 3%;
+    margin-top: 2%;
+    padding: 1%;
+    display: inline-block;
+}
+
+.formulario{
+    text-align: center;
+}
+
+form p{
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.formulario_p1{
+    display: inline-block;
+    width: 49%;
+    padding-top: 1%;
+    vertical-align: top;
+    text-align: left;
+}
+
+.formulario_p2{
+    display: inline-block;
+    width: 49%;
+    padding-top: 1%;
+    text-align: left;
+}
+
+label{
+    margin-right: 10px;
+}
+
+input{
+    margin: 5px auto;
+}
+
+select{
+    margin: 5px auto;
+}
+
+textarea{
+    margin: 5px auto;
+    resize: none;
+}
+
+#email{
+    width: 248px;
+}
+
+#pais{
+    width: 257px;
+}
+
+#tituloConsulta{
+    vertical-align: top;
+}
+
+.enviar{
+    text-align: right;
+}
+
+.enviar button{
+    padding: 5px 20px;
+    background-color: #2b2d42;
+    border-radius: .5em;
+    border: 0;
+}
+
+.enviar button a {
+    color: #edf2f4;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Proximos eventos */
+section p{
+    font-size: 15px;
+}
+
+.proximosEventos{
+    margin: 0 70px;
+    width: 800px;
+    margin-bottom: 3%;
+}
+
+.proximosEventos h2{
+    margin: 3% 0 1% 0;
+}
+
+.proximosEventos p{
+    font-size: 1.5vw;
+}
+
+#irA{
+margin-top: 1%;
+font-weight: bold;
+}
+
+.proximosEventos ul{
+margin: 2% 5%;
+}
+
+.proximosEventos ul li{
+margin-top: 0.5%;
+}
+
+.evento{
+    height: 8vw;
+    width: 30vw;
+    border: 2px #2b2d42 solid;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 1%;
+    margin: 1%;
+    box-shadow: #888888 4px 4px 4px;
+}
+
+.evento:hover{
+    border: 2px #d90429 solid;
+}
+
+/* Eventos deportivos */
+#eDeportivos{
+    margin: 0 70px;
+}
+
+#eDeportivos h3{
+    margin-top: 2%;
+}
+
+div a{
+    color: #2b2d42;
+    text-decoration: none;
+}
+
+/* Eventos culturales */
+#eCulturales{
+    margin: 0 70px;
+}
+
+#eCulturales h3{
+    margin-top: 2%;
+}
+
+div a{
+    color: #2b2d42;
+    text-decoration: none;
+}
+
+/* Eventos musicales*/
+#eMusicales{
+    margin: 0 70px;
+}
+
+
+#eMusicales h3{
+    margin-top: 2%;
+}
+
+div a{
+    color: #2b2d42;
+    text-decoration: none;
+}
+
+#footer{
+    margin-top: 3%;
+}
+
+/* Gracias */
+.divGracias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 0 2% 0;
+}
+
+.h1Gracias{
+    font-size: 10vw;
+    margin: 1%;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.video p{
+    margin-bottom: 1%;
+    font-size: 2.5vw;
+}
+
+.video iframe{
+    width: 85vw;
+    height: 45vw;
+}
+
+/* Responsive */
+
+@media  (max-width: 480px) {
+    /* Index */
+    .barraContacto{
+        padding-right: 0;
+    }
+    .header{
+        padding: 3%;
+        background-image: url(../Imagenes/Logo.png);
+        background-repeat: no-repeat;
+        background-position: 5% center;
+        background-size: 10%;
+    }
+    h1{
+        font-size: 20px;
+        margin-left: 15%;
+    }
+    nav ul li {
+        font-size: 10px;
+        padding: 1%;
+        margin: 1%;
+    }
+    .banner{
+        height: 240px;
+        display: flex;
+        align-items: center;
+    }
+    .banner p {
+        font-size: 40px;
+        padding: 1%;
+    }
+    .descripcion{
+        margin: 1%;
+    }
+    .descripcion p {
+        font-size: 12px;
+    }
+    .clima{
+        margin: 3%;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .nubeClima img{
+        width: 100px;
+    }
+    .datosClima ul li {
+        font-size: 12px;
+        margin-bottom: 12%;
+        margin-left: 5%;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .climaProximo ul li {
+        font-size: 10px;
+    }
+    .transporte{
+        margin: 3%;
+    }
+    .infoTransporte p {
+        font-size: 10px;
+    }
+    .divTarifas{
+        display: flex;
+        justify-content: center;
+    }
+    .tarifas{
+        padding: 2%;
+        margin: 1%;
+        width: 85vw;
+    }
+    .tarifas ul li {
+        font-size: 10px;
+    }
+    .imagenes div img {
+        width: 90px;
+    }
+    #logoFooter{
+        margin-left: 2%;
+    }
+    #logoFooter img{
+        width: 50px;
+    }
+    .infoFooter p {
+        font-size: 10px;
+    }
+    .infoFooter ul li {
+        font-size: 8px;
+    }
+    #contactoFooter{
+        width: 90px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .imgFooter{
+        width: 3vw;
+    }
+    .imgFooterFacebook{
+        width: 2vw;
+    }
+
+    /* Que hacer */
+    #totalAtracciones{
+        margin: 1%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .queHacer{
+        margin: 1%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .atracciones{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .atracciones div {
+        margin: 1%;
+    }
+    .atracciones div p {
+        font-size: 10px;
+    }
+
+    /* Eventos */
+    .proximosEventos{
+        margin: 3%;
+        width: fit-content;
+    }
+    .proximosEventos p {
+        font-size: 3vw;
+    }
+    .proximosEventos ul li {
+        font-size: 3vw;
+    }
+    .evento{
+        height: 17vw;
+        width: 40vw;
+        padding: 1%;
+    }
+    #eDeportivos{
+        margin: 2%;
+    }
+    #eDeportivos div {
+        padding: 2%;
+    }
+    #eMusicales{
+        margin: 2%;
+    }
+    #eMusicales div {
+        padding: 2%;
+    }
+    #eCulturales{
+        margin: 2%;
+    }
+    #eCulturales div {
+        padding: 2%;
+    }
+    .evento a p {
+        font-size: 2vw;
+    }
+    .ocultar{
+        display: none;
+    }
+    h4{
+        font-size: 2.5vw;
+    }
+    h5{
+        font-size: 2.5vw;
+        margin-top: 1%;
+    }
+    /* Contacto */
+    .mapaydatos{
+        flex-direction: column;
+    }
+    .mapa{
+        margin-left: 1%;
+    }
+    .mapa iframe{
+        width: 80vw;
+        height: 50vw;
+    }
+    .datosPAC{
+        display: flex;
+    }
+    .datosPAC ul li{
+        font-size: 3.5vw;
+    }
+    .contactateDatos h3{
+        font-size: 4vw;
+    }
+    .contactateDatos ul li{
+        font-size: 3vw;
+    }
+    .formulario{
+        display: flex;
+        justify-content: center;
+    }
+    .formulario form{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+    .formulario form p {
+        font-size: 3.5vw;
+    }
+    #consulta{
+        width: 280px;
+    }
+    .video p {
+        font-size: 3vw;
+    }
+}
+
+@media  (max-width: 445px) {
+    .hoyyproximo{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media  (max-width: 400px) {
+    .barraContacto ul li a img{
+        width: 4vw;
+    }
+    #facebook{
+        width: 2vw;
+    }
+    #contactoFooter{
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 355px) {
+    .header{
+        height: 20px;
+    }
+}
+
+@media (max-width: 330px) {
+    h1{
+        font-size: 6vw;
+    }
+}
